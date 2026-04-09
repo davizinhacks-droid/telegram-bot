@@ -883,7 +883,7 @@ def main():
     app.add_handler(CallbackQueryHandler(buttons))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 
-    print("🔥 BOT CON HISTORIAL - 100% FUNCIONAL")
+    print("🔥 BOT INICIADO")
     app.run_polling()
 
 if __name__ == "__main__":
